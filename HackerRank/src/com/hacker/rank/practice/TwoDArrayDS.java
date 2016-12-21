@@ -6,7 +6,7 @@ public class TwoDArrayDS {
 	public static void main(String[] args) {
         Scanner in = Util.getScanner();
         int arr[][] = new int[6][6];
-        int maxVal = 0;
+        int maxVal = Integer.MIN_VALUE;
         for(int arr_i=0; arr_i < 6; arr_i++){
             for(int arr_j=0; arr_j < 6; arr_j++){
                 arr[arr_i][arr_j] = in.nextInt();
